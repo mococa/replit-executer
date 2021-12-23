@@ -1,0 +1,16 @@
+{
+  "name": "replit-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crosis4furrets": "^0.0.1-beta.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
+}
