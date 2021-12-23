@@ -8,6 +8,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("ok");
+});
 app.get("/:replitId", async (req, res) => {
   const { command, sid, doneAfter } = req.query;
   const { replitId } = req.params;
