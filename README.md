@@ -12,3 +12,5 @@ Great. For testing, make a request to:
 ```
 /REPL-ID?sid=REPLIT-SID&command=ls
 ```
+
+You can use this for basics DevOps operations, like running a script that will do `git pull && busybox reboot` (Update your repl and then restart it, to apply changes)
